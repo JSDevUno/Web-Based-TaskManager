@@ -18,6 +18,8 @@
     <div class="sidebar">
         <ul>
             <li><i class="fa-solid fa-list-check"></i><a href="/admin/posts/managepost.html" class="current">Manage Tasks</a></li>
+            <li><i class="fa-solid fa-list-check"></i><a href="/admin/posts/managepost.html" class="current">Manage Tasks</a></li>
+            <li><i class="fa-solid fa-list-check"></i><a href="/admin/posts/managepost.html" class="current">Manage Tasks</a></li>
         </ul>
     </div>
    <div id="managepost">
