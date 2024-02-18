@@ -80,17 +80,23 @@ ul li a{
     justify-content: center;
     box-shadow:10px 10px brown;
 }
-table, tr,  th, td{
+table{
     border-collapse: collapse;
     padding: 20px;
-    text-align: left;
+    text-align: center;
     color: black;
     font-weight: bold;
     border-bottom: 2px solid black;
-    padding-left: 150px;
-    width: 100px;
+    width: 100%;
     white-space: nowrap;
     margin-top: 20px;
+    border-color: #1B1A55;
+}
+tr,  th, td{
+    padding: 20px;
+    text-align: center;
+    color: black;
+    font-weight: bold;
 }
 td:nth-child(2){
     overflow-x: auto;
@@ -103,6 +109,24 @@ td a{
     background-color: #070F2B;
     padding: 10px;
     border-radius: 10px;
+    border: 2px solid red;
+}
+td a:nth-child(2){
+    background-color: red;
+    color: #070F2B;
+    border: 2px solid #070F2B;
+    transition: .3s;
+}
+td a:hover{
+    border: 2px solid white;
+}
+th{
+    background-color: #070F2B;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
 }
 .tablecont{
     overflow: auto;
@@ -124,5 +148,10 @@ td a{
     padding: 5px;
     font-size: 25px;
     text-decoration: none;
+    border: 2px  solid #070F2B;
     border-radius: 5px;
+    transition: .3s;
 }
+.blue:hover{
+    background-color: #070F2B;
+}   
