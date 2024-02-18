@@ -5,7 +5,7 @@
     color: white;
 }
 body {
-    background-color: aliceblue;
+    background-color: #070F2B;
 }
 h2{
     display: inline-block;
@@ -98,8 +98,19 @@ td:nth-child(2){
     overflow-x: auto; 
     max-width: 150px; 
 }
+td a{
+    text-decoration: none;
+    background-color: #070F2B;
+    padding: 10px;
+    border-radius: 10px;
+}
 .tablecont{
     overflow: auto;
+}
+.tablecont div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 .green{
     color: green
@@ -108,5 +119,10 @@ td:nth-child(2){
     color: red
 }
 .blue{
-    color: blue;
+    color: white;
+    background-color: red;
+    padding: 5px;
+    font-size: 25px;
+    text-decoration: none;
+    border-radius: 5px;
 }
