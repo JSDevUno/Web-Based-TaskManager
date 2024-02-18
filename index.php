@@ -42,7 +42,7 @@
                         echo "</tr>";
                     }
                     } else {
-                    echo "0 results";
+                    echo "<p class='reminder'>Create a new task to start!</p>";
                     }
                     $conn->close();
                 ?>
