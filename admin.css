@@ -14,12 +14,9 @@ h2{
     right: 10px;
 }
 .welcome{
-    display: inline-block;
-    position: relative;
-    bottom: 15px;
-    left: 70%;
     font-size: 30px;
     font-weight: bold;
+    padding-bottom: 5px;
 }
 img{
     width: 50px;
@@ -29,14 +26,15 @@ img{
     padding: 10px;
     padding-bottom: 4px;
     padding-left: 25px;
-}
-.sidebar{
-    width: 13%;
-    height: 100vh;
-    background-color: brown;
+    width: 50%;
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
     display: flex;
+    align-items: center;
     justify-content: center;
-    position: fixed;
 }
 ul li{
     list-style: none;
@@ -70,8 +68,8 @@ ul li a{
 /*==MANAGEPOST==*/
 #managepost{
     position: absolute;
-    top: 54%;
-    left: 56.5%;
+    top: 50%;
+    left: 50%;
     transform: translate(-50%, -50%);
     width: 70%;
     height: 70%;
