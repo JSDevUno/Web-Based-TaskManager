@@ -31,15 +31,17 @@ if (isset($_GET["id"])) {
     <title>Edit Task</title>
 </head>
 <body>
-    <form action="update.php" method="POST">
-        <a href="index.php">Home</a><br>
-        <input type="hidden" name="id" value="<?php echo $id; ?>">
-        <label for="title">Title</label>
-        <input type="text" id="title" name="title" value="<?php echo htmlspecialchars($title); ?>"><br>
-        <label for="description">Description</label>
-        <input type="text" id="description" name="description" value="<?php echo htmlspecialchars($description); ?>"><br>
-        <input type="submit" value="Update">
-    </form>
+    <div>
+        <form action="update.php" method="POST">
+            <a href="index.php">Home</a><br>
+            <input type="hidden" name="id" value="<?php echo $id; ?>">
+            <label for="title">Title</label>
+            <input type="text" id="title" name="title" value="<?php echo htmlspecialchars($title); ?>"><br>
+            <label for="description">Description</label>
+            <input type="text" id="description" name="description" value="<?php echo htmlspecialchars($description); ?>"><br>
+            <input type="submit" value="Update">
+        </form>
+    </div>
 </body>
 </html>
 
