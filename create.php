@@ -28,14 +28,16 @@
 </head>
 <body>
     <div>
-        <form action="create.php" method="post">
-            <a href="index.php">Home</a><br>
-            <label for="title">Title</label>
-            <input type="text" id="title" name="title"><br>
-            <label for="title">Description</label>
-            <input type="text" id="title" name="description"><br>
-            <input type="submit" value="Create">
-        </form>
+        <div>
+            <form action="create.php" method="post">
+                <a href="index.php">Home</a><br>
+                <label for="title">Title</label>
+                <input type="text" id="title" name="title"><br>
+                <label for="title">Description</label>
+                <input type="text" id="title" name="description"><br>
+                <input type="submit" value="Create">
+            </form>
+        </div>
     </div>
 </body>
 </html>
