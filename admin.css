@@ -171,9 +171,15 @@ th{
 .inner{
     position: relative;
 }
-label{
+.task{
     font-family: 'Courier New', Courier, monospace;
-    color: black;
+    color: wheat;
+    font-weight: 700;
+    background-color: red;
+    text-align: center;
+    padding: 10px;
+    font-size: 40px;
+    border-radius: 20px;
 }
 input{
     width: 100%;
@@ -197,8 +203,9 @@ textarea{
     border-radius: 20px;
     outline: none;
     border: none;
+    color: black;
 }
-a{
+.back{
     padding: 10px;
     background-color: red;
     position: absolute;

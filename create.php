@@ -29,15 +29,14 @@
 </head>
 <body>
     <div class="container">
+        <p class="task">CREATE TASK</p>
         <div class="inner">
             <form action="create.php" method="post">
-                <label for="title">Title</label>
-                <input type="text" id="title" name="title"><br>
-                <label for="title">Description</label>
-                <textarea name="description" id="title" cols="30" rows="10"></textarea><br>
+                <input type="text" id="title" name="title" placeholder="Enter Title..."><br>
+                <textarea name="description" id="description" cols="30" rows="10" placeholder="Enter Description/Details..."></textarea><br>
                 <input type="submit" value="Create">
             </form>
-            <a href="index.php">Home</a><br>
+            <a href="index.php" class="back">Home</a><br>
         </div>
     </div>
 </body>

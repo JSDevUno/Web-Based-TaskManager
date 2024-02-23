@@ -29,19 +29,19 @@ if (isset($_GET["id"])) {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Edit Task</title>
+    <link rel="stylesheet" href="admin.css">
 </head>
 <body>
     <div class="container">
+        <p class="task">UPDATE TASK</p>
         <div class="inner">
             <form action="update.php" method="POST">
-                <a href="index.php">Home</a><br>
                 <input type="hidden" name="id" value="<?php echo $id; ?>">
-                <label for="title">Title</label>
-                <input type="text" id="title" name="title" value="<?php echo htmlspecialchars($title); ?>"><br>
-                <label for="description">Description</label>
-                <input type="text" id="description" name="description" value="<?php echo htmlspecialchars($description); ?>"><br>
+                <input type="text" id="title" name="title" placeholder="Enter Title..." value="<?php echo htmlspecialchars($title); ?>"><br>
+                <textarea name="description" id="description" cols="30" rows="10" placeholder="Enter Description/Details..."><?php echo htmlspecialchars($description); ?></textarea><br>
                 <input type="submit" value="Update">
             </form>
+            <a href="index.php">Home</a><br>
         </div>
     </div>
 </body>
