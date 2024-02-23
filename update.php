@@ -31,8 +31,8 @@ if (isset($_GET["id"])) {
     <title>Edit Task</title>
 </head>
 <body>
-    <div>
-        <div>
+    <div class="container">
+        <div class="inner">
             <form action="update.php" method="POST">
                 <a href="index.php">Home</a><br>
                 <input type="hidden" name="id" value="<?php echo $id; ?>">

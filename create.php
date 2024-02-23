@@ -27,8 +27,8 @@
     <title>Document</title>
 </head>
 <body>
-    <div>
-        <div>
+    <div class="container">
+        <div class="inner">
             <form action="create.php" method="post">
                 <a href="index.php">Home</a><br>
                 <label for="title">Title</label>
