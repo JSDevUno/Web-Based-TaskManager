@@ -10,7 +10,7 @@
         $sql = "INSERT INTO tasklist (title, descriptions)
         VALUES ('".$title."', '".$description."')";
         if (mysqli_query($conn, $sql)) {
-        echo "New record created successfully";
+            echo "<p class='success-message'>New record created successfully!</p>";
         } else {
         echo "Error: " . $sql . "<br>" . mysqli_error($conn);
         }

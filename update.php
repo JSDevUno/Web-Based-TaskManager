@@ -41,7 +41,7 @@ if (isset($_GET["id"])) {
                 <textarea name="description" id="description" cols="30" rows="10" placeholder="Enter Description/Details..."><?php echo htmlspecialchars($description); ?></textarea><br>
                 <input type="submit" value="Update">
             </form>
-            <a href="index.php">Home</a><br>
+            <a href="index.php" class="back">Home</a><br>
         </div>
     </div>
 </body>
