@@ -11,5 +11,4 @@ function connectDb(){
       die("Connection failed: " . $conn->connect_error);
     }
      return $conn;
-    }
-
+}
